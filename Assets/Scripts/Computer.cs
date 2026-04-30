@@ -6,6 +6,9 @@ public class Computer : MonoBehaviour
 
     public void ActivateGif()
     {
-        gif.SetActive(true);
+        if (!gif.activeInHierarchy)
+            gif.SetActive(true);
+        else
+            gif.SetActive(false);
     }
 }

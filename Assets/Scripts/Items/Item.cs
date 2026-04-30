@@ -1,18 +1,15 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.PlayerLoop;
+using UnityEngine.UIElements;
 
-public class InteractEvent : UnityEvent<Item>{}
 public class Item : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public uint ID; 
+    public Image icon;
+    string desc;
 
-    // Update is called once per frame
-    void Update()
+    void Init()
     {
-        
     }
 }
