@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
 
     //Tuning Vars
     [SerializeField] private float typeWriterDelayBetweenChars;
-    [SerializeField] private GameObject choices;
+    [SerializeField] private GameObject[] choices;
     [SerializeField] private TextMeshProUGUI[] choiceTexts;
 
     public TextAsset test;
@@ -32,7 +32,9 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         referenceManager = ReferenceManager.Instance;
-        EnterDialogueMode(test);
+        //EnterDialogueMode(test);
+
+        HideChoices();
     }
 
     public void EnterDialogueMode(TextAsset inkjson)
@@ -78,22 +80,46 @@ public class DialogueManager : MonoBehaviour
 
         if (currentStory.canContinue)
         {
+            Debug.Log("Continuing Story");
             stringCurrentlyBeingTypewritten = currentStory.Continue();
             StartCoroutine(TypeWriter(stringCurrentlyBeingTypewritten));
+        }
+        else
+        {
+            Debug.Log("NOT Continuing Story");
+            CreateChoices();
+            if (currentStory.currentChoices.Count > 0)
+            {
+                
+            }
         }
     }
 
     private void CreateChoices()
     {
+        int i = 0;
         foreach (TextMeshProUGUI text in choiceTexts)
-        { 
-            
+        {
+            choices[i].SetActive(true);
+            List<Choice> currentChoices = currentStory.currentChoices;
+            text.text = currentChoices[i].text;
+            i++;
         }
     }
 
 
+    private void HideChoices()
+    {
+        foreach (GameObject choice in choices)
+        {
+            choice.SetActive(false);
+        }
+    }
+
     public void MakeChoice(int index)
     {
+        HideChoices();
+
         currentStory.ChooseChoiceIndex(index);
         ContinueStory();
     }
