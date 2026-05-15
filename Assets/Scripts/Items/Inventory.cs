@@ -1,16 +1,14 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    DraggableItem currentItem = null;
-    [SerializeField] GameObject inventoryBar;
+    ReferenceManager referenceManager;
+    List<ItemData> items = new List<ItemData>();
 
-    void ViewInventory()
+    void Awake()
     {
-        if (inventoryBar.activeSelf)
-            inventoryBar.SetActive(false);
-        else
-            inventoryBar.SetActive(true);
+        referenceManager = ReferenceManager.Instance;
     }
 
     private void OnEnable()
@@ -21,6 +19,13 @@ public class Inventory : MonoBehaviour
     private void OnDisable()
     {
         
+    }
+
+    public void AddItem(ItemData itemAsset)
+    {
+        Debug.Log("Item added: " + itemAsset.name);
+        items.Add(itemAsset);
+        Debug.Log("inventory count: " + items.Count);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

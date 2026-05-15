@@ -6,6 +6,7 @@ using Image = UnityEngine.UI.Image;
 
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    public ItemData itemData;
     Image image;
     [HideInInspector] public Transform parentAfterDrag;
 
