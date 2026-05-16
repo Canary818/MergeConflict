@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 public class ItemData : ScriptableObject
 {
     public uint ID; 
-    public Image icon;
+    public Sprite sprite;
     public string itemName;
     public string desc;
 

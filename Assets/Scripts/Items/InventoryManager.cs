@@ -1,14 +1,15 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+public class InventoryManager : MonoBehaviour
 {
-    ReferenceManager referenceManager;
     List<ItemData> items = new List<ItemData>();
+
+    public event Action<List<ItemData>> InventoryUpdated;
 
     void Awake()
     {
-        referenceManager = ReferenceManager.Instance;
     }
 
     private void OnEnable()
@@ -26,6 +27,7 @@ public class Inventory : MonoBehaviour
         Debug.Log("Item added: " + itemAsset.name);
         items.Add(itemAsset);
         Debug.Log("inventory count: " + items.Count);
+        InventoryUpdated?.Invoke(items);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

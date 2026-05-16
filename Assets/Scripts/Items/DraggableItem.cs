@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Image = UnityEngine.UI.Image;
 
+
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public ItemData itemData;
@@ -13,6 +14,21 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     void Awake()
     {
         image = GetComponent<Image>();
+    }
+
+    public void UpdateItemData(ItemData item)
+    {
+        itemData = item;
+        if (itemData)
+        {
+            gameObject.SetActive(true);
+            image.sprite = item.sprite;
+        }
+        else
+        {
+            gameObject.SetActive(false);
+            image.sprite = null;
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)

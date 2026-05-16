@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e46ec3cc4e214c85883d191a3eaffaf, type: 3}
-  m_Name: Pie
+  m_Name: Usb
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   ID: 0
-  sprite: {fileID: -7155230277424680642, guid: 8062a6ab2de814b608bf528bc0bec9a1, type: 3}
-  itemName: Crusty Yummy Pie!
-  desc: 
+  itemName: Usb
+  desc: It's a usb.

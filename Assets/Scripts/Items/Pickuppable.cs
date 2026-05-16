@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class Pickuppable : Interactable
 {
-    Inventory inventory;
+    InventoryManager inventory;
     public ItemData itemData;
 
     void Start()
