@@ -1,0 +1,1331 @@
+fileFormatVersion: 2
+guid: 97a5d3c7f22ea4fb4a2e043edb150e68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2760724250317370659
+    second: spriteWire_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriteWire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddac609dbefefa9d0800000000000000
+      internalID: -2760724250317370659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1680
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22848ef44f55d4ca2be53d2b634163c4
+      internalID: 1985025090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1680
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead25526bf486455a9267c96a03c9e52
+      internalID: -497390915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1680
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84b41caf6a174a3494149043b9b2f39
+      internalID: -873769526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1680
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40279611f0d894a61a9264ee3bf58695
+      internalID: -509595915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f3d1bfef14b45c2b4165cbb4a29d32
+      internalID: -1041649490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1512
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff56fbc0694a44868c94fa1910ee687
+      internalID: -1713985976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1512
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482c6a3f4c6a47f4ae71c5da976616f
+      internalID: -1357912671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1512
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59473561692164207b15f57e7dbbd153
+      internalID: -753863893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_9
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1512
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b804c99164fc4432093ec68e6e635f9f
+      internalID: -840850553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3817a031496884386886a8538f4443d5
+      internalID: 876815781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1344
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b93c623072545c3b04b36c570cea4c
+      internalID: 738407672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1344
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8418fb493cb1f4363aa787c5d2d617ee
+      internalID: 1606789873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1344
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76849d8ae51424b28a049a038cd30478
+      internalID: 478325949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1344
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd636c542cfea499ebb6df3ac0d73286
+      internalID: -1774544885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7164d137e94f468fdd4908b134058
+      internalID: 1401462144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1176
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871190188fb9243aabd6382b538ebf37
+      internalID: 1082084391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1176
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bfa23e637334e25957e4e0c9962ee5
+      internalID: -315289749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_18
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1176
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624fc70f556ce488fa332a58e2839466
+      internalID: -948558274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_19
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1176
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689af8763df5a4c229f65cfeac7fb594
+      internalID: 182316581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0862a335daf314bfe90084fd6fdfbb05
+      internalID: -1399605475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1008
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfcf36321e854eeebdbc4d490f332b6
+      internalID: 739159805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1008
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354495daef9f44675acc5894abb0f684
+      internalID: 1299330794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_23
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1008
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4057f6ec0dd674ee1a1d2091542887c7
+      internalID: 172412532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_24
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1008
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28887473cf78e483cb71728e92f5b949
+      internalID: -1632145853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c598924890f9c40979864734003b65e1
+      internalID: -1676054786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 840
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be72010944dd41698ba917bf4071159
+      internalID: 735800971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_27
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 840
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc50dd7bf9cf64469bc4cc02abd68a25
+      internalID: 2129989372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 840
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b50b0b5bad14b579ac1f8d0d8f0038
+      internalID: -428975512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_29
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 840
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993d46a998c8a4b2ebcd4d3ad843c294
+      internalID: -1826774281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c9d4cdfbe4040b6bb185e7276ad76c
+      internalID: -1354103739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_31
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 672
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57aad62008c0f42f19387363145f143c
+      internalID: 82516605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 672
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3518319c033e4c60a5f204c1a16392b
+      internalID: 588402346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 672
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c784201b7b4ff2b11a156ed78dc7b
+      internalID: -1404571182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_34
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 672
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7b9a08c6ec444008c408ea975de08a
+      internalID: -933973320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0f811a75181447ba43ff8584d03d3c
+      internalID: -1542019145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 504
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92b84fad269243d092ae1c1b2c9da8c
+      internalID: -1085990100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 504
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8217ce8d2598432087881818891d6a5
+      internalID: 1056328982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_38
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 504
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193301df6979d4dca8bd3eaf4ebec338
+      internalID: -1263132827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_39
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 504
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488da5c295b9d41bbb05254b51f1e595
+      internalID: 1856153759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1c973aaa950497bb66f84942deb916
+      internalID: 1522385007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_41
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 336
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db3517576230475083dfa38e90f4700
+      internalID: -2002330184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_42
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 336
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a5e3013351c4ac4ae58d42ff6bc6c9
+      internalID: -824088078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_43
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 336
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e722538f8789483598f9f7770fee2dd
+      internalID: -691966189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_44
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 336
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b487f3ea41445cb86e8ea339f26a0
+      internalID: 490280111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c717c9e4d37c42ebb4a093b474d924d
+      internalID: -1007781973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_46
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 168
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdf8cb51a3e042ea86ff36cc17d4058
+      internalID: 2135163709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_47
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 168
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e409328e0fd9140b486e6fb4251f4c0e
+      internalID: -1639795696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_48
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 168
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8070f40ed89ab43f893c068805204854
+      internalID: -315362635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_49
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 168
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6478113dbce4d469bb56f5f8ad3ab2
+      internalID: -1803335687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8289f087599a54e4b83e8d0b55e6cf90
+      internalID: 333198879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWire_51
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 220
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3babc8e55b54693ba7765b2f2eecb2
+      internalID: 1132650901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3d119011788764ed5897dbfcb7e0d289
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":11.0},"gridSpriteSize":{"x":220.0,"y":168.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spriteWire_0: -2760724250317370659
+      spriteWire_1: 1985025090
+      spriteWire_10: 876815781
+      spriteWire_11: 738407672
+      spriteWire_12: 1606789873
+      spriteWire_13: 478325949
+      spriteWire_14: -1774544885
+      spriteWire_15: 1401462144
+      spriteWire_16: 1082084391
+      spriteWire_17: -315289749
+      spriteWire_18: -948558274
+      spriteWire_19: 182316581
+      spriteWire_2: -497390915
+      spriteWire_20: -1399605475
+      spriteWire_21: 739159805
+      spriteWire_22: 1299330794
+      spriteWire_23: 172412532
+      spriteWire_24: -1632145853
+      spriteWire_25: -1676054786
+      spriteWire_26: 735800971
+      spriteWire_27: 2129989372
+      spriteWire_28: -428975512
+      spriteWire_29: -1826774281
+      spriteWire_3: -873769526
+      spriteWire_30: -1354103739
+      spriteWire_31: 82516605
+      spriteWire_32: 588402346
+      spriteWire_33: -1404571182
+      spriteWire_34: -933973320
+      spriteWire_35: -1542019145
+      spriteWire_36: -1085990100
+      spriteWire_37: 1056328982
+      spriteWire_38: -1263132827
+      spriteWire_39: 1856153759
+      spriteWire_4: -509595915
+      spriteWire_40: 1522385007
+      spriteWire_41: -2002330184
+      spriteWire_42: -824088078
+      spriteWire_43: -691966189
+      spriteWire_44: 490280111
+      spriteWire_45: -1007781973
+      spriteWire_46: 2135163709
+      spriteWire_47: -1639795696
+      spriteWire_48: -315362635
+      spriteWire_49: -1803335687
+      spriteWire_5: -1041649490
+      spriteWire_50: 333198879
+      spriteWire_51: 1132650901
+      spriteWire_6: -1713985976
+      spriteWire_7: -1357912671
+      spriteWire_8: -753863893
+      spriteWire_9: -840850553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
