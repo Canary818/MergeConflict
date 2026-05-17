@@ -32,7 +32,7 @@ public class InventoryBar : MonoBehaviour
             Debug.LogError("Need to have a container for inventory slots!");
         }
     }
-    void OnDisable()
+    private void OnDestroy() 
     {
         referenceManager.inventoryManager.InventoryUpdated -= UpdateInventoryBar;
     }

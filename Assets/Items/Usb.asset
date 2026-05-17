@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Usb
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   ID: 0
+  sprite: {fileID: -7643623948730526584, guid: e4f06a0029ab937439c98e5cd9cb9272, type: 3}
   itemName: Usb
   desc: It's a usb.
