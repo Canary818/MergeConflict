@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         referenceManager = ReferenceManager.Instance;
-        //EnterDialogueMode(test);
+        EnterDialogueMode(test);
 
         HideChoices();
     }
@@ -41,7 +41,7 @@ public class DialogueManager : MonoBehaviour
     {
         IsDialogueRunning = true;
         currentStory = new Story(inkjson.text);
-        // dialogueCurrentlyPlaying = true;
+        //dialogueCurrentlyPlaying = true;
         
         ContinueStory();
     }
