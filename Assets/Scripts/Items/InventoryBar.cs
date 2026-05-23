@@ -10,7 +10,7 @@ public class InventoryBar : MonoBehaviour
 
     // place the singular parent of all the inventory slots
     [SerializeField] GameObject inventorySlotContainer = null;  
-    DraggableItem[] itemHolders;
+    DraggableItem[] itemHolders = new DraggableItem[5];
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -24,8 +24,9 @@ public class InventoryBar : MonoBehaviour
         {
             for (int i = 0; i < inventorySlotContainer.transform.childCount; i++)
             {
-                itemHolders = inventorySlotContainer.transform.GetComponentsInChildren<DraggableItem>();
+                itemHolders[i] = inventorySlotContainer.transform.GetChild(i).GetComponentInChildren<DraggableItem>();
             }
+            Debug.Log(itemHolders);
         }
         else
         {
