@@ -7,7 +7,7 @@ using Image = UnityEngine.UI.Image;
 
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public ItemData itemData;
+    public ItemDataSO itemDataSo;
     Image image;
     [HideInInspector] public Transform parentAfterDrag;
     bool isEmpty = true;
@@ -18,11 +18,11 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         image.enabled = false;
     }
 
-    public void UpdateItemData(ItemData item)
+    public void UpdateItemData(ItemDataSO item)
     {
         Debug.Log("draggable item updated");
-        itemData = item;
-        if (itemData)
+        itemDataSo = item;
+        if (itemDataSo)
         {
             isEmpty = false;
             image.sprite = item.sprite;

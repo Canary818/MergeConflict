@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 public class Pickuppable : Interactable
 {
     InventoryManager inventory;
-    public ItemData itemData;
+    public ItemDataSO itemDataSo;
 
     void Start()
     {
@@ -13,7 +13,7 @@ public class Pickuppable : Interactable
 
     protected override void Interact()
     {
-        inventory.AddItem(itemData);
+        inventory.AddItem(itemDataSo);
         Debug.Log("picked up!");
         base.Interact();
     }

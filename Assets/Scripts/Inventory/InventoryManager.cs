@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    List<ItemData> items = new List<ItemData>();
+    List<ItemDataSO> items = new List<ItemDataSO>();
 
-    public event Action<List<ItemData>> InventoryUpdated;
+    public event Action<List<ItemDataSO>> InventoryUpdated;
 
     void Awake()
     {
@@ -22,7 +22,7 @@ public class InventoryManager : MonoBehaviour
         
     }
 
-    public void AddItem(ItemData itemAsset)
+    public void AddItem(ItemDataSO itemAsset)
     {
         Debug.Log("Item added: " + itemAsset.name);
         items.Add(itemAsset);

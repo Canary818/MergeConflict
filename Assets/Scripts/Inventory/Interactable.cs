@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour, IPointerClickHandler, IDropHandler
     // for drag and drop items. 
     public void OnDrop(PointerEventData eventData)
     {
-        ItemData item = eventData.pointerDrag.GetComponent<DraggableItem>().itemData;
+        ItemDataSO item = eventData.pointerDrag.GetComponent<DraggableItem>().itemDataSo;
         Interact();
         Debug.Log(item.name + " used on " + name);
     }
