@@ -6,11 +6,12 @@ using UnityEngine;
 public class InventoryBar : MonoBehaviour
 {
     ReferenceManager referenceManager;
-    [SerializeField] int currentIndex = 0;
+    [SerializeField] private int currentIndex = 0;
+    [SerializeField] private int slotCount = 5;  
 
     // place the singular parent of all the inventory slots
     [SerializeField] GameObject inventorySlotContainer = null;  
-    DraggableItem[] itemHolders = new DraggableItem[5];
+    DraggableItem[] draggableItems ;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -20,13 +21,15 @@ public class InventoryBar : MonoBehaviour
     {
         referenceManager = ReferenceManager.Instance;
         referenceManager.inventoryManager.InventoryUpdated += UpdateInventoryBar;
+        draggableItems = new DraggableItem[slotCount];
+        
         if (inventorySlotContainer)
         {
             for (int i = 0; i < inventorySlotContainer.transform.childCount; i++)
             {
-                itemHolders[i] = inventorySlotContainer.transform.GetChild(i).GetComponentInChildren<DraggableItem>();
+                draggableItems[i] = inventorySlotContainer.transform.GetChild(i).GetComponentInChildren<DraggableItem>();
             }
-            Debug.Log(itemHolders);
+            Debug.Log(draggableItems);
         }
         else
         {
@@ -46,25 +49,33 @@ public class InventoryBar : MonoBehaviour
 
     public void IncrementIndex()
     {
-
-    }
+        if (draggableItems.Length > slotCount)
+        {
+            currentIndex++;
+            Debug.Log("incremented" + currentIndex);
+        }
+    }       
 
     public void DecrementIndex()
     {
-
+        if (draggableItems.Length > slotCount & currentIndex > slotCount)
+        {
+            currentIndex--;
+            Debug.Log("decremented" + currentIndex);
+        }
     }
 
     // possibly redo this update bar function if performance takes a hit from 
-    // cleaning and allocating on inventory on inventory update 
+    // cleaning and allocating on inventory update 
     public void UpdateInventoryBar(List<ItemDataSO> itemDatas)
     {
         int available = itemDatas.Count - currentIndex;
-        for (int i = 0; i < itemHolders.Length; i++)
+        for (int i = 0; i < draggableItems.Length; i++)
         {
             if (i < available)
-                itemHolders[i].UpdateItemData(itemDatas[currentIndex + i]);
+                draggableItems[i].UpdateItemData(itemDatas[currentIndex + i]);
             else 
-                itemHolders[i].UpdateItemData(null);
+                draggableItems[i].UpdateItemData(null);
         }
     }
 }

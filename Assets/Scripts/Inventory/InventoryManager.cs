@@ -22,7 +22,7 @@ public class InventoryManager : MonoBehaviour
         
     }
 
-    public void AddItem(ItemDataSO itemAsset)
+    public void Add(ItemDataSO itemAsset)
     {
         Debug.Log("Item added: " + itemAsset.name);
         items.Add(itemAsset);

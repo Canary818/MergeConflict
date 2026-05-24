@@ -13,7 +13,7 @@ public class Pickuppable : Interactable
 
     protected override void Interact()
     {
-        inventory.AddItem(itemDataSo);
+        inventory.Add(itemDataSo);
         Debug.Log("picked up!");
         base.Interact();
     }
