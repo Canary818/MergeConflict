@@ -20,7 +20,6 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void UpdateItemData(ItemDataSO item)
     {
-        Debug.Log("draggable item updated");
         itemDataSo = item;
         if (itemDataSo)
         {

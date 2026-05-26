@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    List<ItemDataSO> items = new List<ItemDataSO>();
+    List<ItemDataSO> items ;
 
-    public event Action<List<ItemDataSO>> InventoryUpdated;
+    public event Action InventoryUpdated;
 
     void Awake()
     {
+        items = new List<ItemDataSO>();
     }
 
     private void OnEnable()
@@ -26,9 +27,17 @@ public class InventoryManager : MonoBehaviour
     {
         Debug.Log("Item added: " + itemAsset.name);
         items.Add(itemAsset);
-        Debug.Log("inventory count: " + items.Count);
-        InventoryUpdated?.Invoke(items);
+        InventoryUpdated?.Invoke();
     }
+
+    public ItemDataSO GetItem(int index)
+    {
+        if (index <= (items.Count - 1) && index >= 0)
+            return items[index];
+        return null;
+    }
+
+    public int Count => items.Count;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

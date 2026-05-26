@@ -5,7 +5,7 @@ using UnityEngine;
 // through items, if more items than slots are available
 public class InventoryBar : MonoBehaviour
 {
-    ReferenceManager referenceManager;
+    InventoryManager inventory;
     [SerializeField] private int currentIndex = 0;
     [SerializeField] private int slotCount = 5;  
 
@@ -19,8 +19,8 @@ public class InventoryBar : MonoBehaviour
     }
     void Start()
     {
-        referenceManager = ReferenceManager.Instance;
-        referenceManager.inventoryManager.InventoryUpdated += UpdateInventoryBar;
+        inventory = ReferenceManager.Instance.inventoryManager;
+        inventory.InventoryUpdated += UpdateInventoryBar;
         draggableItems = new DraggableItem[slotCount];
         
         if (inventorySlotContainer)
@@ -38,7 +38,7 @@ public class InventoryBar : MonoBehaviour
     }
     private void OnDestroy() 
     {
-        referenceManager.inventoryManager.InventoryUpdated -= UpdateInventoryBar;
+        inventory.InventoryUpdated -= UpdateInventoryBar;
     }
 
     // Update is called once per frame
@@ -49,33 +49,32 @@ public class InventoryBar : MonoBehaviour
 
     public void IncrementIndex()
     {
-        if (draggableItems.Length > slotCount)
+        int maxIndex = inventory.Count / slotCount;
+        if (inventory.Count > slotCount && currentIndex  < maxIndex)
         {
             currentIndex++;
             Debug.Log("incremented" + currentIndex);
         }
+        UpdateInventoryBar();
     }       
 
     public void DecrementIndex()
     {
-        if (draggableItems.Length > slotCount & currentIndex > slotCount)
+        if ((inventory.Count > slotCount) && (currentIndex > 0))
         {
             currentIndex--;
             Debug.Log("decremented" + currentIndex);
         }
+        UpdateInventoryBar();
     }
 
     // possibly redo this update bar function if performance takes a hit from 
     // cleaning and allocating on inventory update 
-    public void UpdateInventoryBar(List<ItemDataSO> itemDatas)
+    public void UpdateInventoryBar()
     {
-        int available = itemDatas.Count - currentIndex;
         for (int i = 0; i < draggableItems.Length; i++)
         {
-            if (i < available)
-                draggableItems[i].UpdateItemData(itemDatas[currentIndex + i]);
-            else 
-                draggableItems[i].UpdateItemData(null);
+            draggableItems[i].UpdateItemData(inventory.GetItem((currentIndex * slotCount) + i));
         }
     }
 }
